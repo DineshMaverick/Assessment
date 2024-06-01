@@ -1,0 +1,47 @@
+{
+  "name": "webdev-dsm-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-staging-desktop": "export NO_PROXY=* && cypress open --env configFile=staging,device=desktop,TAGS='@staging and @desktop'",
+    "dev-softlaunch-tablet": "export NO_PROXY=* && cypress open --env configFile=softlaunch,device=tablet,TAGS='@softlaunch and @tablet'",
+    "ci-local-staging-mobile": "export NO_PROXY=* && cypress run --env configFile=staging,device=mobile,TAGS='@staging and @mobile'",
+    "ci": "export NO_PROXY=* && percy exec -- browserstack-cypress run --sync -u $browserstackuser -k $browserstackkey"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack-cypress-cli": "^1.0.1",
+    "commander": "^9.0.0",
+    "cypress-wait-until": "^1.7.2",
+    "fs-extra": "^10.0.1",
+    "scroll-to-bottomjs": "^1.1.0",
+    "typescript": "^4.8.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@percy/cli": "^1.11.0",
+    "@percy/cypress": "^3.1.1",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "^13.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-if": "^1.10.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-junit-reporter": "^1.3.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha-junit-reporter": "^2.0.2"
+  }
+}
