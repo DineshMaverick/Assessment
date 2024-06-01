@@ -1,0 +1,95 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify Footer component in webpage",
+    "line": 1,
+    "id": "verify-footer-component-in-webpage",
+    "tags": [],
+    "uri": "footer.feature",
+    "elements": [
+      {
+        "id": "verify-footer-component-in-webpage;verify-elements-in-footer-component",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify elements in Footer Component",
+        "tags": [
+          {
+            "name": "@desktop",
+            "line": 3
+          },
+          {
+            "name": "@tablet",
+            "line": 3
+          },
+          {
+            "name": "@mobile",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on the webpage to test the \"components/footer\" Footer component",
+            "result": {
+              "status": "passed",
+              "duration": 1016000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7040000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see image \"/content/dam/gsk-dsm/gsk logo.png\" in the Footer component",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see link \"#ql1,#ql2,https://www.gsk.com/en-gb/cookie-policy/,https://gskpro.com/en-gb,https://privacy.gsk.com/en-gb/privacy-notice/general/\" in the Footer component",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I can see the title \"Legal Notice,Privacy Notice,Internet-Based Ads\" in the Footer component",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I can see the description \"Trademarks are owned by or licensed to the GSK group of companies., This website is funded and developed by GSK.\" in the Footer component",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

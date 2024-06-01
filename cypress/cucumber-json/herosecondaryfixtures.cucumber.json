@@ -1,0 +1,211 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify Herosecondary component in Storybook canvas page",
+    "line": 2,
+    "id": "verify-herosecondary-component-in-storybook-canvas-page",
+    "tags": [
+      {
+        "name": "@fixtures",
+        "line": 1
+      }
+    ],
+    "uri": "herosecondaryfixtures.feature",
+    "elements": [
+      {
+        "id": "verify-herosecondary-component-in-storybook-canvas-page;verify-elements-in-hero-secondary-component",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify elements in Hero Secondary Component",
+        "tags": [
+          {
+            "name": "@fixtures",
+            "line": 1
+          },
+          {
+            "name": "@desktop",
+            "line": 4
+          },
+          {
+            "name": "@tablet",
+            "line": 4
+          },
+          {
+            "name": "@mobile",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the webpage to test the \"components/hero-secondary\" Herosecondary component",
+            "result": {
+              "status": "passed",
+              "duration": 953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can see the title \"This is title\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I can see the subtitle \"Lorem Ipsum is simply a dummy text!!!\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I can see the description \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I should see link \"https://dsmdemo-com.integration-cf65.gskinternet.com/\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should see image \"https://dsmdemo-com.preprod-cf65.gskinternet.com/content/dam/gsk-dsm/cat-551554_1280.jpg\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-herosecondary-component-in-storybook-canvas-page;verify-elements-in-hero-secondary-component",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify elements in Hero Secondary Component",
+        "tags": [
+          {
+            "name": "@fixtures",
+            "line": 1
+          },
+          {
+            "name": "@desktop",
+            "line": 4
+          },
+          {
+            "name": "@tablet",
+            "line": 4
+          },
+          {
+            "name": "@mobile",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the webpage to test the \"components/hero-secondary\" Herosecondary component",
+            "result": {
+              "status": "passed",
+              "duration": 606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7041000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can see the title \"This is title\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I can see the subtitle \"Lorem Ipsum is simply a dummy text!!!\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I can see the description \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I should see link \"https://dsmdemo-com.integration-cf65.gskinternet.com/\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should see image \"/content/dam/gsk-dsm/cat-551554_1280.jpg\" in the Hero Secondary component",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

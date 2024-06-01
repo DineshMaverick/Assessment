@@ -1,0 +1,131 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify isi component in Storybook canvas page",
+    "line": 2,
+    "id": "verify-isi-component-in-storybook-canvas-page",
+    "tags": [
+      {
+        "name": "@fixtures",
+        "line": 1
+      }
+    ],
+    "uri": "isi.feature",
+    "elements": [
+      {
+        "id": "verify-isi-component-in-storybook-canvas-page;verify-elements-in-isi-component",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify elements in isi Component",
+        "tags": [
+          {
+            "name": "@fixtures",
+            "line": 1
+          },
+          {
+            "name": "@desktop",
+            "line": 4
+          },
+          {
+            "name": "@tablet",
+            "line": 4
+          },
+          {
+            "name": "@mobile",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the webpage to test the \"components/important-safety-information\" isi component",
+            "result": {
+              "status": "passed",
+              "duration": 968000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7030000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can see the title \"Section A\" in the isi component",
+            "result": {
+              "status": "passed",
+              "duration": 7125000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-isi-component-in-storybook-canvas-page;verify-elements-in-isi-component",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify elements in isi Component",
+        "tags": [
+          {
+            "name": "@fixtures",
+            "line": 1
+          },
+          {
+            "name": "@desktop",
+            "line": 4
+          },
+          {
+            "name": "@tablet",
+            "line": 4
+          },
+          {
+            "name": "@mobile",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the webpage to test the \"components/important-safety-information\" isi component",
+            "result": {
+              "status": "passed",
+              "duration": 505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can see the title \"Section B\" in the isi component",
+            "result": {
+              "status": "passed",
+              "duration": 7066000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

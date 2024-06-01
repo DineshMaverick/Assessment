@@ -1,0 +1,211 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify Header component in webpage",
+    "line": 2,
+    "id": "verify-header-component-in-webpage",
+    "tags": [
+      {
+        "name": "@fixtures",
+        "line": 1
+      }
+    ],
+    "uri": "header.feature",
+    "elements": [
+      {
+        "id": "verify-header-component-in-webpage;verify-elements-in-header-component",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify elements in Header Component",
+        "tags": [
+          {
+            "name": "@fixtures",
+            "line": 1
+          },
+          {
+            "name": "@desktop",
+            "line": 4
+          },
+          {
+            "name": "@tablet",
+            "line": 4
+          },
+          {
+            "name": "@mobile",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the webpage to test the \"components/header\" Header component",
+            "result": {
+              "status": "passed",
+              "duration": 903000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7028000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see image \"/content/dam/gsk-dsm/BREO_Ellipta_Logo_Desktop@2x.png\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should see link \"#\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I can see the title \"utility1,utility2,utility3\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I can see the buttonvalue_text \"primary sub\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I can enter inputvalue \"component\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-header-component-in-webpage;verify-elements-in-header-component",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify elements in Header Component",
+        "tags": [
+          {
+            "name": "@fixtures",
+            "line": 1
+          },
+          {
+            "name": "@desktop",
+            "line": 4
+          },
+          {
+            "name": "@tablet",
+            "line": 4
+          },
+          {
+            "name": "@mobile",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the webpage to test the \"components/header\" Header component",
+            "result": {
+              "status": "passed",
+              "duration": 647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see image \"/content/dam/gsk-dsm/BREO_Ellipta_Logo_Desktop@2x.png\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should see link \"#\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I can see the title \"utility1,utility2,utility3\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I can see the buttonvalue_text \"primary sub\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I can enter inputvalue \"component\" in the Header component",
+            "result": {
+              "status": "passed",
+              "duration": 335000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

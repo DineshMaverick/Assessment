@@ -1,0 +1,129 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User Registration on Axate",
+    "line": 1,
+    "id": "user-registration-on-axate",
+    "tags": [],
+    "uri": "axate.feature",
+    "elements": [
+      {
+        "id": "user-registration-on-axate;registering-a-new-user-on-staging-site-axate",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Registering a new user on Staging Site Axate",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the article page \"https://yrk.branch-master.axate.io/articles/1\"",
+            "result": {
+              "status": "passed",
+              "duration": 403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on \"Get a day pass\", yellow button, inside the article",
+            "result": {
+              "status": "passed",
+              "duration": 6455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user fills in a random \"test129@gmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 1178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user selects \"United Kingdom\" as the country and enters a valid UK \"TW3 3AE\"",
+            "result": {
+              "status": "passed",
+              "duration": 972000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user selects a random preference for marketing preferences",
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user clicks \"Continue\"",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user selects any payment amount",
+            "result": {
+              "status": "failed",
+              "duration": 20156000000,
+              "error_message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `.amount-picker-container label`, but never found it.\n    at Context.eval (cypress/e2e/common/axate.js:47:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user selects Voucher",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user fills in \"QA2024\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user clicks \"Continue\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should see confirmation \"\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

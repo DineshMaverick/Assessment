@@ -1,0 +1,94 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify Herosecondary component in Storybook canvas page",
+    "line": 2,
+    "id": "verify-herosecondary-component-in-storybook-canvas-page",
+    "tags": [
+      {
+        "name": "@fixtures",
+        "line": 1
+      }
+    ],
+    "uri": "hero_primary.feature",
+    "elements": [
+      {
+        "id": "verify-herosecondary-component-in-storybook-canvas-page;verify-elements-in-hero-secondary-component",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify elements in Hero Secondary Component",
+        "tags": [
+          {
+            "name": "@fixtures",
+            "line": 1
+          },
+          {
+            "name": "@desktop",
+            "line": 4
+          },
+          {
+            "name": "@tablet",
+            "line": 4
+          },
+          {
+            "name": "@mobile",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the webpage to test the \"components/hero-primary\" Heroprimary component",
+            "result": {
+              "status": "passed",
+              "duration": 1052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can see the title \"Product overview\" in the Heroprimary component",
+            "result": {
+              "status": "passed",
+              "duration": 7097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I can see the description \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus augue nunc, quis consectetur tortor malesuada at.\" in the Heroprimary component",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see link \"#\" in the Heroprimary component",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

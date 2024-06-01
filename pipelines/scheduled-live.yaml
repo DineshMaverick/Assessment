@@ -1,0 +1,40 @@
+trigger:
+  - none
+
+pr: none
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - group: browserstack
+
+schedules:
+  - cron: "0 1 * * *"
+    displayName: Daily midnight +1 build
+    branches:
+      include:
+        - main
+
+jobs:
+  - job: Test
+    timeoutInMinutes: 120
+    steps:
+      - task: NodeTool@0
+        inputs:
+          versionSpec: '14.13.1'
+      - script: npm ci
+      - task: Bash@3
+        displayName: Set Browserstack credentials and run Tests
+        inputs:
+          targetType: 'inline'
+          script: |
+            export browserstackuser=gskidazure_QcPKzv7HaK
+            export browserstackkey=$(GSKWebDevDsmBrowserStackAccKey)
+            npm run ci -- --build-name=$(Build.DefinitionName).$(Build.BuildNumber) --env configFile=live,device=desktop,TAGS='@live and @desktop'
+      - task: PublishTestResults@2
+        condition: succeededOrFailed()
+        inputs:
+          testResultsFormat: 'JUnit'
+          testResultsFiles: 'build_artifacts/**/*.xml'
+

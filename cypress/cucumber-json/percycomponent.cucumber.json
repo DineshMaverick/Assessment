@@ -1,0 +1,103 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "percy web component testing",
+    "line": 5,
+    "id": "percy-web-component-testing",
+    "tags": [
+      {
+        "name": "@visual",
+        "line": 2
+      },
+      {
+        "name": "@desktop",
+        "line": 3
+      },
+      {
+        "name": "@tablet",
+        "line": 3
+      }
+    ],
+    "uri": "percycomponent.feature",
+    "elements": [
+      {
+        "id": "percy-web-component-testing;extraction-of-components",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Extraction of components",
+        "tags": [
+          {
+            "name": "@visual",
+            "line": 2
+          },
+          {
+            "name": "@desktop",
+            "line": 3
+          },
+          {
+            "name": "@tablet",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I go to staging page",
+            "result": {
+              "status": "undefined",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I take a screenshot of staging page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I go to Preprod page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I have corresponding device viewport2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I take a screenshot of preprod page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

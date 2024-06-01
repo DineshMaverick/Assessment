@@ -1,0 +1,267 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Visual regression with Percy screenshots",
+    "line": 6,
+    "id": "visual-regression-with-percy-screenshots",
+    "tags": [
+      {
+        "name": "@visual",
+        "line": 1
+      },
+      {
+        "name": "@staging",
+        "line": 2
+      },
+      {
+        "name": "@softlaunch",
+        "line": 2
+      },
+      {
+        "name": "@desktop",
+        "line": 3
+      },
+      {
+        "name": "@tablet",
+        "line": 3
+      }
+    ],
+    "uri": "percy.feature",
+    "elements": [
+      {
+        "id": "visual-regression-with-percy-screenshots;test-1-product-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test-1 product page",
+        "tags": [
+          {
+            "name": "@visual",
+            "line": 1
+          },
+          {
+            "name": "@staging",
+            "line": 2
+          },
+          {
+            "name": "@softlaunch",
+            "line": 2
+          },
+          {
+            "name": "@desktop",
+            "line": 3
+          },
+          {
+            "name": "@tablet",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to test-1 library products page",
+            "result": {
+              "status": "undefined",
+              "duration": 421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I take a screenshot and name it test-1 products page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "visual-regression-with-percy-screenshots;test-2-product-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test-2 product page",
+        "tags": [
+          {
+            "name": "@visual",
+            "line": 1
+          },
+          {
+            "name": "@staging",
+            "line": 2
+          },
+          {
+            "name": "@softlaunch",
+            "line": 2
+          },
+          {
+            "name": "@desktop",
+            "line": 3
+          },
+          {
+            "name": "@tablet",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I go to test-2 library products page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I take a screenshot and name it test-2 products page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "visual-regression-with-percy-screenshots;test-3-product-page",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Test-3 product page",
+        "tags": [
+          {
+            "name": "@visual",
+            "line": 1
+          },
+          {
+            "name": "@staging",
+            "line": 2
+          },
+          {
+            "name": "@softlaunch",
+            "line": 2
+          },
+          {
+            "name": "@desktop",
+            "line": 3
+          },
+          {
+            "name": "@tablet",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I go to test-3 library products page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I take a screenshot and name it test-3 products page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "visual-regression-with-percy-screenshots;test-4-product-page",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Test-4 product page",
+        "tags": [
+          {
+            "name": "@visual",
+            "line": 1
+          },
+          {
+            "name": "@staging",
+            "line": 2
+          },
+          {
+            "name": "@softlaunch",
+            "line": 2
+          },
+          {
+            "name": "@desktop",
+            "line": 3
+          },
+          {
+            "name": "@tablet",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I go to test-4 library products page",
+            "result": {
+              "status": "undefined",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I take a screenshot and name it test-4 products page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

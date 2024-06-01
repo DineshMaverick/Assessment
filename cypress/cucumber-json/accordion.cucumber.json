@@ -1,0 +1,85 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify Accordion component in webpage",
+    "line": 1,
+    "id": "verify-accordion-component-in-webpage",
+    "tags": [],
+    "uri": "accordion.feature",
+    "elements": [
+      {
+        "id": "verify-accordion-component-in-webpage;verify-elements-in-accordion-component",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify elements in Accordion Component",
+        "tags": [
+          {
+            "name": "@desktop",
+            "line": 3
+          },
+          {
+            "name": "@tablet",
+            "line": 3
+          },
+          {
+            "name": "@mobile",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the webpage to test the \"components/accordion\" Accordion component",
+            "result": {
+              "status": "passed",
+              "duration": 1586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have corresponding device viewport",
+            "result": {
+              "status": "passed",
+              "duration": 7057000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can see the title \"FREQU KED QONS\" in the Accordion component",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I can see the button \"What are the approved\" and buttonvalue_text \"BREO is approved , BREO contains vilanterol. , BREO is not for people , BREO is not used to relieve\" in the Accordion component",
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I can see the buttonvalue_image \"/content/dam/gsk-dsm/BREO_Ellipta_Logo_Desktop@2x.png\" in the Accordion component",
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

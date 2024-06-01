@@ -1,0 +1,49 @@
+parameters:
+  - name: env
+    displayName: 'Environment'
+    default: staging
+    values:
+      - staging
+      - live
+  - name: device
+    displayName: 'Device type'
+    default: desktop
+    values:
+      - mobile
+      - tablet
+      - desktop
+
+trigger:
+  - main
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+  - job: Test
+    steps:
+      - task: AzureKeyVault@2
+        inputs:
+          azureSubscription: 'DevKeyVaultReader'
+          KeyVaultName: 'webdev-dsm'
+          SecretsFilter: '*'
+          RunAsPreJob: false
+      - task: NodeTool@0
+        displayName: install npm dependencies 
+        inputs:
+          versionSpec: '14.13.1'
+      - script: npm ci
+      - task: Bash@3
+        displayName: Set Browserstack credentials and run Tests
+        inputs:
+          targetType: 'inline'
+          script: |
+            export browserstackuser=gskidazure_QcPKzv7HaK
+            export browserstackkey=$(GSKWebDevDsmBrowserStackAccKey)
+            npm run ci -- --build-name=$(Build.DefinitionName).$(Build.BuildNumber) --env configFile=${{ parameters.env }},device=${{ parameters.device }},TAGS='@${{ parameters.env }} and @${{ parameters.device }}'
+      - task: PublishTestResults@2
+        condition: succeededOrFailed()
+        inputs:
+          testResultsFormat: 'JUnit'
+          testResultsFiles: 'build_artifacts/**/*.xml'
+

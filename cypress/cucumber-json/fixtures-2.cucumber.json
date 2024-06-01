@@ -1,0 +1,77 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Fixtures staging and preprod  environment home page check",
+    "line": 4,
+    "id": "fixtures-staging-and-preprod--environment-home-page-check",
+    "tags": [
+      {
+        "name": "@fixtures",
+        "line": 1
+      },
+      {
+        "name": "@desktop",
+        "line": 2
+      },
+      {
+        "name": "@tablet",
+        "line": 2
+      },
+      {
+        "name": "@mobile",
+        "line": 2
+      }
+    ],
+    "uri": "fixtures-2.feature",
+    "elements": [
+      {
+        "id": "fixtures-staging-and-preprod--environment-home-page-check;validate-the-elements-in-staging-and-preprod-environment",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "validate the elements in Staging and preprod environment",
+        "tags": [
+          {
+            "name": "@fixtures",
+            "line": 1
+          },
+          {
+            "name": "@desktop",
+            "line": 2
+          },
+          {
+            "name": "@tablet",
+            "line": 2
+          },
+          {
+            "name": "@mobile",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to staging environment page and validate the components",
+            "result": {
+              "status": "passed",
+              "duration": 5076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I go to Preprod environment page and validate the components",
+            "result": {
+              "status": "failed",
+              "duration": 647000000,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'cookies')\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Fixtures staging and prepro...`\n    at C:\\Users\\dg375835\\AppData\\Local\\Cypress\\Cache\\10.11.0\\Cypress\\resources\\app\\packages\\server\\lib\\browsers\\cdp_automation.js:185:51\nFrom previous event:\n    at $Cypress.automation (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:154062:12)\n    at Object.getCookies (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:145456:29)\n    at Object.clearCookies (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:145462:77)\n    at Object.clearCurrentSessionData (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:145412:72)\n    at https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:144871:46\nFrom previous event:\n    at $Cypress.<anonymous> (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:144871:26)\n    at listener (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:161365:19)\nFrom previous event:\n    at $Cypress.<anonymous> (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:161368:14)\n    at parent.<computed> [as emitThen] (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:161323:31)\n    at $Cypress.action (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:153876:21)\n    at fire (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:163657:18)\n    at https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:163667:14\nFrom previous event:\n    at testBeforeRunAsync (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:163665:61)\n    at https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:165066:20\nFrom previous event:\n    at Object.onRunnableRun (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:165053:46)\n    at $Cypress.action (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:153861:28)\n    at Runnable.run (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:162726:13)\n    at next (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:108451:10)\n    at https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:108495:5\n    at timeslice (https://webdev-dsm-staging.gskinternet.com/__cypress/runner/cypress_runner.js:102421:27)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
